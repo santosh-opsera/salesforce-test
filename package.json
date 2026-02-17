@@ -1,0 +1,14 @@
+{
+  "name": "salesforce-test",
+  "version": "1.0.0",
+  "description": "Simple Salesforce project for package validation, metadata transform, and SonarQube",
+  "scripts": {
+    "validate": "sf project deploy validate --source-dir force-app",
+    "validate:manifest": "sf project deploy validate --manifest manifest/package.xml --target-org",
+    "metadata:to-md": "sf project convert source --source-dir force-app --output-dir output-md",
+    "metadata:to-source": "sf project convert metadata --root-dir output-md --output-dir force-app",
+    "sonar": "sonar-scanner"
+  },
+  "keywords": ["salesforce", "sfdx", "apex", "sonarqube"],
+  "license": "ISC"
+}
