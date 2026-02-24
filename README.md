@@ -1,6 +1,6 @@
 # Salesforce Test Project
 
-Minimal Salesforce (SFDX) project set up for **package validation**, **metadata transformer**, and **SonarQube**.
+Minimal Salesforce (SFDX) project set up for **package validation**, **metadata transformer**, and **SonarQube**
 
 ## Prerequisites
 
